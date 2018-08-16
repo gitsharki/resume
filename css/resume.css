@@ -1,0 +1,176 @@
+/*
+
+Colors
+
+ */
+.header-row {
+    background-color: #5a6268;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #5a6268;
+}
+
+.profile-col {
+    background-color: #dee2e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-col {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+label {
+    /* background-color: whitesmoke; */
+    background-color: #5a6268;
+    color: white;
+}
+
+/*
+
+Sizes
+
+ */
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.faheader {
+    font-size: 8em;
+}
+
+/*
+
+ Fonts
+
+ */
+.name {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+p {
+    font-size: .9em;
+}
+
+.first {
+
+}
+
+ul {
+    font-size: .9em;
+}
+
+.last {
+    color: white;
+}
+
+.contact {
+    font-size: .9em;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -18px;
+    /*border-radius: 4px;*/
+    background-color: white;
+    padding: 20px;
+}
+
+.specialties {
+    font-size: .8em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.position {
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*
+
+Other
+
+ */
+
+ul {
+    list-style-type: square;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-header {
+    cursor: pointer;
+    background-color: #dee2e6;
+}
+
+.card-header:hover {
+    background-color: rgba(0,0,0,.03);
+}
+
+.main-content {
+    border: 1px solid #5a6268;
+}
+
+.m-pad {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+li span {
+    text-decoration: underline;
+}
+
+/*
+
+Printing:
+
+ */
+
+@media print {
+    .header-row {
+        background-color: white;
+        color: black;
+    }
+
+    .last {
+        color: black;
+    }
+
+    .profile-col {
+        background-color: white;
+    }
+
+    label {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .card-header {
+        background-color: whitesmoke;
+    }
+
+    .m-pad {
+        display: none;
+    }
+}
