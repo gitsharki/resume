@@ -59,7 +59,7 @@
                     MySQL, Oracle, MS SQL, Mongo DB, Sybase
                 </li>
                 <li><span>Languages</span><br>
-                    PHP, C/C++, JavaScript, Python, Perl, Shell
+                    PHP, C/C++, Java, JavaScript, Python, Perl, Shell
                 </li>
                 <li><span>Frameworks</span><br>
                     Laravel, Angular, VUE, Bootstrap
