@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kirill Kokoshko</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -92,12 +93,11 @@
                     Director of Professional Services, SmartStream
                 </li>
             </ul>
-            </ul>
         </div>
         <div class="col-md-8 main-col">
 
             <label class="col-md-12" for="achievements">Notable Achievements
-                <i class="fas fa-print float-right m-pad" onclick="javascript:window.print();"></i>
+                <i class="fas fa-print float-right m-pad" onclick="window.print();"></i>
             </label>
             <div class="achievements" id="achievements">
                 <ul>
