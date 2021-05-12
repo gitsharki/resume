@@ -44,7 +44,7 @@
         <div class="col-md-4 profile-col">
             <label class="col-md-12" for="profile">Profile</label>
             <div class="col-md-12 profile" id="profile">
-                <p>Passionate professional with 20 years working experience in all aspects of information technology.
+                <p>Passionate professional with 20+ years working experience in all aspects of information technology.
                     Offering unique perspective and solutions due to having worked in development, administration, support and project management. Open minded and friendly, team oriented individual with great personality. </p>
             </div>
 
