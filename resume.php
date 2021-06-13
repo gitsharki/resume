@@ -51,7 +51,7 @@
             <label class="col-md-12" for="expretise">Expertise</label>
             <ul class="expertise" id="expretise">
                 <li><span>Hardware</span><br>
-                    Dell, HP, Sun, Apple
+                    PC, Apple, Dell, HP, Sun
                 </li>
                 <li><span>Operating Systems</span><br>
                     Linux, Windows, Solaris, FreeBSD
@@ -60,13 +60,13 @@
                     MySQL, Oracle, MS SQL, Mongo DB, Sybase
                 </li>
                 <li><span>Languages</span><br>
-                    PHP, C/C++, Java, JavaScript, Python, Perl, Shell
+                    PHP, C/C++, Java, JavaScript, Node.JS, Python, Perl, Shell
                 </li>
                 <li><span>Frameworks</span><br>
-                    Laravel, Angular, VUE, Bootstrap
+                    Laravel, jQuery, Angular, VUE, Bootstrap
                 </li>
                 <li><span>Development</span><br>
-                    GIT, Subversion, CVS, Docker, Chef
+                    GIT, Subversion, CVS, Docker, Kubernetes, Chef
                 </li>
                 <li><span>App/Web Servers</span><br>
                     Nginx, Apache, Tomcat, Weblogic, Websphere
@@ -77,6 +77,9 @@
             </ul>
             <label class="col-md-12" for="references">References</label>
             <ul class="references" id="references">
+                <li><span>Cameron Hassanzadeh</span><br>
+                    COO, Dealervenom
+                </li>
                 <li><span>Dr. Lawrence Gordon</span><br>
                     CEO, WRSHealth
                 </li>
@@ -104,6 +107,7 @@
                     <li>Built an entire line of business for SumNet LLC. providing high volume email broadcast service for time sensitive market research data</li>
                     <li>Compiled, trained, and lead level 2 operations team for Goldman Sachs portfolio management web application, providing 24/7/365 support and availability.</li>
                     <li>Helped streamline modernization of WRSHealth UI, using cutting-edge development tools and agile processes.</li>
+                    <li>Participated in formation of a highly succesfull startup Dealervenom, first as a lead developer and a systems administrator, then as the CTO.</li>
                 </ul>
             </div>
             <label class="col-md-12" for="experience">Experience
@@ -112,9 +116,37 @@
             <div class="experience" id="experience">
                 <div class="card">
                     <div class="card-header">
+                        <div class="col-md-12" data-toggle="collapse" data-target="#work-0">
+                            <div class="row">
+                                <div class="col-md-2 dates">2018<br>2021</div>
+                                <div class="col-md-10">
+                                    <div class="col-md-12 company">Dealervenom</div>
+                                    <div class="col-md-12 position">CTO</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse multi-collapse" id="work-0">
+                    <div class="card-body">
+                        <ul>
+                            <li>Linux System Administration</li>
+                            <li>Information security</li>
+                            <li>AWS, DigitalOcean management</li>
+                            <li>Server deployment, automation, management</li>
+                            <li>Fullstack development</li>
+                            <li>Wordpress development</li>
+                            <li>Database administration</li>
+                            <li>Development team training and management</li>
+                            <li>Technology research, evaluation, and deployment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-1">
                             <div class="row">
-                                <div class="col-md-2 dates">2017<br>Present</div>
+                                <div class="col-md-2 dates">2017<br>2018</div>
                                 <div class="col-md-10">
                                     <div class="col-md-12 company">Online Freelancer</div>
                                     <div class="col-md-12 position">System Administration, Full Stack Development</div>
@@ -330,7 +362,7 @@
 
             <label class="col-md-12" for="education">Education</label>
             <ul id="education">
-                <li>1993 – 1997 University of Nebraska at Lincoln Lincoln, NE<br>
+                <li>1993 – 1997 University of Nebraska at Lincoln, NE<br>
                     Computer Science
                 </li>
                 <li>1992-1993 Omaha Central High, Omaha, NE</li>
