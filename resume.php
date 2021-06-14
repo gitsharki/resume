@@ -24,7 +24,7 @@
         <div class="col-md-12">&nbsp;</div>
     </div>
     <div class="row header-row">
-        <div class="col-md-2">
+        <div class="col-md-2 d-none d-sm-block">
             <i class="fas fa-user-circle faheader"></i>
             <!--<img src="img/psycho-crisis.jpg" height="391" width="401"/>-->
         </div>
