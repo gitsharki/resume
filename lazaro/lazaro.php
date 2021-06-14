@@ -123,7 +123,7 @@
             </label>
             <div class="profsummary">
                 <div class="col-md-12">
-                    <p>An accomplished Statistician, Data Scientist, Engineer, Programmer, Application Developer, and Actuary with extensive and comprehensive experience and background in Healthcare,
+                    <p>An accomplished IT, Statistician, Data Professional, Data Scientist, Engineer, Programmer, Application Developer, Actuary with extensive and comprehensive experience and background in Healthcare,
                         Banking, Risk Management, Marketing, Hotels, Telecommunications, Cable and Internet, Agriculture, and Insurance. Major strengths include ability to adapt to new technical
                         standards
                         and environments. Build and implement financial and statistical models and analysis in Marketing, Econometric, Co-integration, Stochastic, Logistic, Timer series, Non-linear
