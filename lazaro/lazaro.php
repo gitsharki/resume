@@ -258,7 +258,7 @@
                                 <div class="col-xs-2 dates">Oct 7 17<br>Apr 8 18</div>
                                 <div class="col-xs-10">
                                     <div class="col-md-12 company"><strong>TCS Associate Consultant </strong></div>
-                                    <div class="col-md-12 company"><strong>SVB BANK, Tempe AZ</strong></div>
+                                    <div class="col-md-12 company"><strong>Silicon Valley BANK, Tempe AZ</strong></div>
                                     <div class="col-md-12 position"><strong>SAS Base and Toad for Oracle</strong></div>
                                 </div>
                             </div>
