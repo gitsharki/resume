@@ -25,16 +25,16 @@
     </div>
     <div class="row header-row">
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-12">
             <i class="fas fa-user-circle faheader"></i>
             <!--<img src="img/psycho-crisis.jpg" height="391" width="401"/>-->
         </div>
-        <div class="col-md-10 name">Lazaro <span class="last">Martinez</span> Lopez</div>
+        <div class="col-md-10 col-xs-12 name">Lazaro <span class="last">Martinez</span> Lopez</div>
 
 
-        <div class="col-md-2"></div>
-        <div class="col-md-7 specialties">Actuary
-            <i class="fas fa-cog"></i> Statistics
+        <div class="col-md-2 col-xs-0"></div>
+        <div class="col-md-6 col-xs-12 specialties">Actuary
+            <i class="fas f7-cog"></i> Statistics
             <i class="fas fa-cog"></i> EDA
             <i class="fas fa-cog"></i> Data Mining
             <i class="fas fa-cog"></i> SAS
@@ -42,7 +42,7 @@
             <i class="fas fa-cog"></i> Software Developer
         </div>
 
-        <div class="col-md-3 contact align-middle">
+        <div class="col-md-3 col-xs-12 text-center contact align-right">
             <!--            <i class="fas fa-phone"></i> (917) 204-8921<br>-->
             <!--            <i class="fas fa-at"></i> <a href="mailto:Lazaro.marazul@gmail.com">Lazaro.marazul@gmail.com</a><br>-->
             <i class="fas fa-address-card"></i> <a href="https://www.linkedin.com/in/lazaro-martinez-lopez-7a36ab4/" target="_blank">www.linkedin.com</a>
@@ -119,7 +119,7 @@
         <div class="col-md-9 main-col">
 
             <label class="col-md-12" for="profsummary">Professional Summary
-                <i class="fas fa-print float-right m-pad" onclick="window.print();"></i>
+                <i class="fas fa-print float-right m-pad" data-toggle="tooltip" title="Print" onclick="window.print();"></i>
             </label>
             <div class="profsummary">
                 <div class="col-md-12">
@@ -138,7 +138,9 @@
                 </div>
             </div>
 
-            <label class="col-md-12" for="achievements">Notable Achievements</label>
+            <label class="col-md-12" for="achievements">Notable Achievements
+                <a href="#education"><i class="fas float-right fa-graduation-cap"></i></a>
+            </label>
             <div class="achievements" id="achievements">
                 <div class="col-md-12">
                     <strong>Specialties (Advisor and subject matter expect (SME))</strong><br>
@@ -171,7 +173,7 @@
                 </div>
             </div>
             <label class="col-md-12" for="experience">Experience
-                <i class="fas fa-toggle-on float-right m-pad" data-toggle="collapse" data-target=".multi-collapse"></i>
+                <i class="fas fa-toggle-on float-right m-pad" title="Collapse" data-toggle="collapse" data-target=".multi-collapse"></i>
             </label>
 
             <div class="experience" id="experience">
@@ -370,7 +372,7 @@
                                 <div class="col-xs-10">
                                     <div class="col-md-12 company"><strong>AARP, Washington DC</strong></div>
                                     <div class="col-md-12 position"><strong>SAS Developer/Modeler/Analytics</strong></div>
-                                    <div class="col-md-12 position"><strong></strong>Sr. Big Data Scientist</div>
+                                    <div class="col-md-12 position"><strong>Sr. Big Data Scientist</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -445,10 +447,13 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-8">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Jun 16 14<br>Dec 31 14</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Comcast, Philadelphia PA</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS programmer/Application Developer</strong></div>
+                                    <div class="col-md-12 position"><strong>Statistical Modeler and Analyst</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS BASE, SAS STAT </strong></div>
+                                    <div class="col-md-12 position"><strong>SAS Enterprise Miner</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -456,17 +461,16 @@
                     <div class="collapse multi-collapse" id="work-8">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Produced algorithm for creating a Historical dataset to calculate the Population Stability Index of each model (PSI).</li>
+                                <li>Developed an algorithm to calculate the Weight of Evidence (WOE) to transform variables during the modeling process.</li>
+                                <li>Supported acquisition and churn teams in SAS and Statistical analysis.</li>
+                                <li>Created ad hoc analysis for the team as need, such as trigger analysis for churn and other customer behaviors.</li>
+                                <li>Developed models to identify and remedy different types of churn.</li>
+                                <li>Developed model to identify the different types of downgrades and upgrades from different products.</li>
+                                <li>Created documentation and Excel worksheet to present the model and to support the model statistics.</li>
+                                <li>Data integrity and data quality assessment interacting and advising manager and data team</li>
                             </ul>
+                            These products developed for Comcast were done as first-time products in the company using datasets with more than 2000 variables and 55, 000, 000 observations, some of the results were models with not more than 10 variables as explanatory variables, including transformation and variables creation.
                         </div>
                     </div>
                 </div>
@@ -474,10 +478,12 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-9">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Aug 01 14<br>Jun 13 14</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>JPM Chase, Wilmington DE</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS programmer</strong></div>
+                                    <div class="col-md-12 position"><strong>Application Developer</strong></div>
+                                    <div class="col-md-12 position"><strong>Process Improvement Consultant</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -485,16 +491,26 @@
                     <div class="collapse multi-collapse" id="work-9">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Established worked environment and developed frame of work for the position, documentation standard, and methodology of developed process</li>
+                                <li>Mapped coding and designed process from each of the application developed</li>
+                                <li>Application developer and process improvement by automating internal information and reporting for collection and recovering team:  Redesigned current collection multiple Agency file processing and developed application with SAS the handle files manipulation from multiple sources; the agency will drop the file in a server and the application will automatically run and collect the files to create a data set with all of the files in order to perform future analysis, the applications required complex calculations and high level of SAS bases and macro language. Developed other applications to handle file modification and backend quality control process; developed other file handling applications for quality control and reporting.</li>
+                                <li>Developed communication reporting mechanism that generate and deliver reports for management and analysts</li>
+                                <li>Developed SAS application to create a Historical Oracle Table</li>
+                                <li>SAS Technical Support for the Collection and Recovery team</li>
+                                <li>IT Technical Support for people within the team</li>
+                                <li>Save the company money, processing time, and accurate deliver of reports.</li>
+                                <li>Training the analyst to use the applications</li>
+                                <li>Translate SQL program to SAS</li>
+                                <li>Developed Excel Template to be incorporate to the process improvement automation and use by the agency.</li>
+                                <li>Implement the developed applications</li>
+                                <li>Create process for quality assurance of files loaded by agencies in internal server and report finding of data quality and integrity</li>
+                                <li>Direct and help other analyst with their SAS code</li>
+                                <li>Developed application to select stratify random sample from business analyst requirement</li>
+                                <li>Fixed old programs for production</li>
+                                <li>Guided Analyst throughout the implementation of developed applications</li>
+                                <li>Advise the Analytical team in experiment design such as Conjoin Analysis and Orthogonal Design</li>
+                                <li>Trained Analyst and Manager in how to use SAS Enterprise Guide for data mining</li>
+                                <li>Manage project from beginning to end to produce expected derivable</li>
                             </ul>
                         </div>
                     </div>
@@ -503,10 +519,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-10">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Sept 17 12<br>Feb 28 13</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Headstrong VA</strong></div>
+                                    <div class="col-md-12 position"><strong>Technical Manager</strong></div>
+                                    <div class="col-md-12 position"><strong>Sr. SAS Developer</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -514,16 +531,8 @@
                     <div class="collapse multi-collapse" id="work-10">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>SAS Developer</li>
+                                <li>Technical Adviser</li>
                             </ul>
                         </div>
                     </div>
@@ -532,10 +541,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-11">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Jun 01 12<br>Sept 10 12</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Strong Tower, Philadelphia, PA</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -543,16 +552,9 @@
                     <div class="collapse multi-collapse" id="work-11">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>SAS Installation for the medical research team at Drexel University</li>
+                                <li>Speak to the medical researcher team to make them aware of their needs</li>
+                                <li>SAS Installation CoMa Inc</li>
                             </ul>
                         </div>
                     </div>
@@ -561,10 +563,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-12">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">May 15 12<br>Jun 15 12</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>TechWay, Kansas City, MO</strong></div>
+                                    <div class="col-md-12 position"><strong>EHR Development</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -572,16 +574,13 @@
                     <div class="collapse multi-collapse" id="work-12">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Create business specification for EHR software</li>
+                                <li>Prepare the certification process for EHR software</li>
+                                <li>Train staff in the software interfaces</li>
+                                <li>Interview the Hospital Department Directors to collect Functionality information</li>
+                                <li>Functioning as operation manager and lead the team to understand the software of development process</li>
+                                <li>Negotiate with vendors as need</li>
+                                <li>Teach the nursing staff to understand the functionality of the software and how to apply their skills in training the user</li>
                             </ul>
                         </div>
                     </div>
@@ -590,10 +589,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-13">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Jan 12 12<br>Apr 30 12</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Lacek Group, Minneapolis, MN</strong></div>
+                                    <div class="col-md-12 position"><strong>Campaign Manager</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 100%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -601,16 +601,11 @@
                     <div class="collapse multi-collapse" id="work-13">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Write SAS code to support group functionalities</li>
+                                <li>Create SAS code for graphing results to be send to the client</li>
+                                <li>QA file data quality, integrity and approved the file standards based on client business criteria</li>
+                                <li>SAS support for the team</li>
+                                <li>Saved the company money in the redesigned of the campaigns Analysis methodology from 86 hours to 2 hours of processing time and optimized SAS code</li>
                             </ul>
                         </div>
                     </div>
@@ -619,10 +614,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-14">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Aug 11<br>Dec 30 11</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Bluestem Brand, Minneapolis, MN</strong></div>
+                                    <div class="col-md-12 position"><strong>Lead Analyst for Credit Risk SAS</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -630,16 +625,14 @@
                     <div class="collapse multi-collapse" id="work-14">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Lead SAS programmer - Developed and implement business intelligence for different marketing divisions within Bluestem Brand</li>
+                                <li>Ran report in a weekly basis for the finance, credit, and marketing department</li>
+                                <li>Developed logic and data reporting</li>
+                                <li>Analysis of credit card data</li>
+                                <li>Lead in the development of a reporting system to track customer behavior </li>
+                                <li>Created a back-end campaign performances tool to alert the campaign manager via an automated email</li>
+                                <li>Created customer view of campaign results</li>
+                                <li>Saved the company several millions of dollars in the first few months due to reorganization on campaigns strategies and updated models used in the campaign</li>
                             </ul>
                         </div>
                     </div>
@@ -648,10 +641,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-15">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Oct 10<br>Dec 10</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>TrailBlazer Consulting, Dallas, TX</strong></div>
+                                    <div class="col-md-12 position"><strong>Statistical Analyst SAS</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -659,16 +652,9 @@
                     <div class="collapse multi-collapse" id="work-15">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Developed Algorithm for part A and part B Medicare to find out providers that are charging part B Medicare during Hospital stay</li>
+                                <li>Responsible for ad-hoc reports </li>
+                                <li>Technical support for SAS reporting group</li>
                             </ul>
                         </div>
                     </div>
@@ -677,10 +663,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-16">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Mar 10<br>Jun 10</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Palmetto GBA of South Carolina</strong></div>
+                                    <div class="col-md-12 position"><strong>Statistical Data Analyst III SAS</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -688,16 +674,28 @@
                     <div class="collapse multi-collapse" id="work-16">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Reported Medicare DMEPOS utilization for Durable Medical Equipment (DME) Suppliers and Medicare usage
+                                </li>
+                                <li>Created reports for ad-hoc requests from different clients such as government agencies regarding Medicare DMEPOS utilization
+                                </li>
+                                <li>Ran medical statistics monthly report, quarterly and annual report to produce information for different type of clients such as government agencies and private companies
+                                </li>
+                                <li>Create ad-hoc reports for medical statistical request
+                                </li>
+                                <li>Create Interactive SAS Report for external clients
+                                </li>
+                                <li>Create statistical analysis to present to different clients such as the medical review group and other internal clients
+                                </li>
+                                <li>Create ad-hoc requests to meet client specification and work with clients to clarify details and goal of the particular ad hoc request for Medicare usage in the different areas such as Home Health providers etc
+                                </li>
+                                <li>Provided HC claims analysis and worked with Medicare/Medicaid, ICD 9 codes to create the request from clients
+                                </li>
+                                <li>Utilized SAS for data modeling and reporting on a UNIX platform
+                                </li>
+                                <li>Create Interactive SAS Report for external clients
+                                </li>
+                                <li>Gained experience with HC claims analysis, Medicare/Medicaid, ICD 9 codes to create the request from clients
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -706,10 +704,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-17">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Sep 05<br>Jul 08</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Numeric Consulting, Atlanta, GA</strong></div>
+                                    <div class="col-md-12 position"><strong>Senior Statistical, Actuarial and SAS Consultant</strong></div>
+                                    <div class="col-md-12 position"><strong>used: Base 30%, Stat 50%, ETL 20%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -717,16 +716,8 @@
                     <div class="collapse multi-collapse" id="work-17">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Statistical modeling for collection and marketing departments - Online Marketing, Web Analytics, Marketing Modeling, Collection Modeling, Risk Models, SAS internet programming</li>
+                                <li>Utilized SAS ETL as a main tool for data manipulation and EDA (Exploratory Data Analysis) and SAS Enterprise Guide</li>
                             </ul>
                         </div>
                     </div>
@@ -735,10 +726,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-18">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Feb 04<br>Aug 05</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>ING Direct, Wilmington, DE</strong></div>
+                                    <div class="col-md-12 position"><strong>Manager of Credit and Analysis Department</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 30%, Stat 70%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -746,16 +738,34 @@
                     <div class="collapse multi-collapse" id="work-18">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Built foundation and created framework and methodology for the Credit Risk Analysis Department
+                                </li>
+                                <li>Developed a Basel II compliant Default and Prepayment Model for residential and commercial mortgages
+                                </li>
+                                <li>Served as a Basel II technical advisor in risk modeling
+                                </li>
+                                <li>Designed, developed, tested and implemented models for forecasting allowance for loan losses for unsecured Personal Loans
+                                </li>
+                                <li>Validated residential mortgage risk models for Credit Risk department resulting in a $5M reduction in the loan loss reserve
+                                </li>
+                                <li>Trained staff in mortgage credit risk analytics
+                                </li>
+                                <li>Supervised the SAS programmers and tested SAS code used in the Credit Risk Analysis Department
+                                </li>
+                                <li>Negotiated contracts with data vendors and external consultants
+                                </li>
+                                <li>Managed loan servicing and acquisition vendor relationships
+                                </li>
+                                <li>Developed methodology for data management and data analysis for the credit risk department
+                                </li>
+                                <li>Developed reports for the credit committee and corporate strategy
+                                </li>
+                                <li>Evaluated and selected vendor mortgage valuation software which facilitated Investment strategy decisions; Evaluated Equifax credit risk models
+                                </li>
+                                <li>Produced reports for credit committee and CEO
+                                </li>
+                                <li>Utilized UNIX and SAS for modeling and reporting
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -764,10 +774,12 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-19">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Mar 03<br>Jan 04</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>MBNA, Wilmington, DE</strong></div>
+                                    <div class="col-md-12 position"><strong>Data Modeler/Statistical Consultant </strong></div>
+                                    <div class="col-md-12 position"><strong>Database Marketing Department</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 30%, Stat 50%, ETS 20%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -775,16 +787,22 @@
                     <div class="collapse multi-collapse" id="work-19">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Designed, developed, tested and implemented credit card loss forecasting models for the Collection Department
+                                </li>
+                                <li>Conceived and developed the Testing and Control department
+                                </li>
+                                <li>Developed SAS code to perform multiple statistical experiments; e.g., Latin Square, RCBD and Factorial Design to improve rewards, retention, acquisition, re-pricing and profitability of marketing programs
+                                </li>
+                                <li>Developed profitability analysis and customer life time value (LTV) methodology. These programs increased revenues by $50M
+                                </li>
+                                <li>Developed reprising algorithms for credit card customers; wrote SAS program to implement models for the data base marketing group
+                                </li>
+                                <li>Utilized Algorithmic Mortgage Software
+                                </li>
+                                <li>Utilized UNIX and SAS for modeling and reporting
+                                </li>
+                                <li>Utilized SAS ETS for predicting enrollment numbers for the Business Credit card Cam
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -793,10 +811,12 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-20">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Mar 02<br>Apr 03</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>ATT Wireless, Redmond, WA</strong></div>
+                                    <div class="col-md-12 position"><strong>Data Modeler and Statistical Consultant</strong></div>
+                                    <div class="col-md-12 position"><strong>Database Marketing Department</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 30%, Stat 50%, ETS 20%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -804,16 +824,20 @@
                     <div class="collapse multi-collapse" id="work-20">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Developed Response and Conversion models for telephone acquisition plans
+                                </li>
+                                <li>Built model to calculate wallet share
+                                </li>
+                                <li>Developed profitability and life time analysis methodology to support acquisition strategy
+                                </li>
+                                <li>Developed profitability analysis and customer life time value (LTV) methodology. These programs increased revenues by $50M
+                                </li>
+                                <li>Developed life time value customer methodology (LTV)
+                                </li>
+                                <li>Created target models for new product
+                                </li>
+                                <li>Developed loyalty and switching models
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -822,10 +846,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-21">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Nov 99<br>Feb 02</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Sprint PCS Consultant, Dallas, TX </strong></div>
+                                    <div class="col-md-12 position"><strong>Data Modeler and Statistical Consultant</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 30%, Stat 70%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -833,16 +858,27 @@
                     <div class="collapse multi-collapse" id="work-21">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Developed methodology for Database Marketing for existing and prospective customer population
+                                </li>
+                                <li>Implemented methodology to measure customer loyalty and reasons for customer losses
+                                </li>
+                                <li>Implemented Vendor data base marketing models
+                                </li>
+                                <li>Built Response and Conversion models for telephone acquisition plans
+                                </li>
+                                <li>Developed cross-sell analysis to improve customer retention and reduced churn
+                                </li>
+                                <li>Designed churn forecast model to enhance retention and enhance churn understanding
+                                </li>
+                                <li>Managed relationship with external data vendors (Dun & Bradstreet)
+                                </li>
+                                <li>Managed Focus Groups; facilitated development of the Marketing Research methodology
+                                </li>
+                                <li>Developed time value customer analysis (LTV)
+                                </li>
+                                <li>Served as technical liaison with the SAS Institute in the design of the data platform
+                                </li>
+                                <li>Developed profitability analysis and reporting methodology </li>
                             </ul>
                         </div>
                     </div>
@@ -851,10 +887,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-22">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Jan 98<br>Oct 99</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Advanta Corporation, Horsham, PA</strong></div>
+                                    <div class="col-md-12 position"><strong>Data Modeler and Statistical Consultant</strong></div>
+                                    <div class="col-md-12 position"><strong>SAS used: Base 30%, Stat 50%, ETS 20%</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -862,16 +899,26 @@
                     <div class="collapse multi-collapse" id="work-22">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Developed Default Risk models for the credit risk division
+                                </li>
+                                <li>Developed Response models for Business Card Department
+                                </li>
+                                <li>Retention Analysis for Asset Quality Department
+                                </li>
+                                <li>Developed methodology and processes to support Mortgage Analysis such as Cash flow, default and prepayment analysis.  Integral member of the team that created the Business Card’s analytical department
+                                </li>
+                                <li>Managed relation with data vendor and vendors for acquisition of customer listing to be offer insurance product to Progressive
+                                </li>
+                                <li>Established methodology for data analysis and data mining
+                                </li>
+                                <li>Managed the Insurance negation between Progressive and Advantage
+                                </li>
+                                <li>Managed renewals and worked in the renewal campaigns
+                                </li>
+                                <li>Utilized SAS for modeling and reporting in a UNIX environment
+                                </li>
+                                <li>Utilized SAS ETS for predicting enrollment numbers for the Business Credit Card Campaign
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -880,10 +927,11 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-23">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Feb 95<br>Dec 97</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>First USA Bank - Wilmington, DE</strong></div>
+                                    <div class="col-md-12 position"><strong>Statistician/Modeler </strong></div>
+                                    <div class="col-md-12 position"><strong>Credit Card Risk/Marketing</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -891,16 +939,9 @@
                     <div class="collapse multi-collapse" id="work-23">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Create or built credit cards for retail customers</li>
+                                <li>Write code for models in SPSS and FoxPro</li>
+                                <li>Present models to clients</li>
                             </ul>
                         </div>
                     </div>
@@ -909,10 +950,10 @@
                     <div class="card-header">
                         <div class="col-md-12" data-toggle="collapse" data-target="#work-24">
                             <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
+                                <div class="col-xs-2 dates">Mar 91<br>Oct 94</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
+                                    <div class="col-md-12 company"><strong>Blue Cross and Blue Shield, European division</strong></div>
+                                    <div class="col-md-12 position"><strong>Actuarial and Statistical Analyst</strong></div>
                                 </div>
                             </div>
                         </div>
@@ -920,74 +961,9 @@
                     <div class="collapse multi-collapse" id="work-24">
                         <div class="card-body">
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="col-md-12" data-toggle="collapse" data-target="#work-25">
-                            <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
-                                <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="collapse multi-collapse" id="work-25">
-                        <div class="card-body">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="col-md-12" data-toggle="collapse" data-target="#work-26">
-                            <div class="row">
-                                <div class="col-xs-2 dates">Start<br>Stop</div>
-                                <div class="col-xs-10">
-                                    <div class="col-md-12 company"><strong>Company</strong></div>
-                                    <div class="col-md-12 position"><strong>Position</strong></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="collapse multi-collapse" id="work-26">
-                        <div class="card-body">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Calculation of reserve incurred but not reported</li>
+                                <li>Prices of international student health insurance policy</li>
+                                <li>Actuarial consulting which work together with average actuary from Washington, DC</li>
                             </ul>
                         </div>
                     </div>
@@ -1000,7 +976,7 @@
                             <div class="row">
                                 <div class="col-xs-2 dates">2002<br>2018</div>
                                 <div class="col-xs-10">
-                                    <div class="col-md-12 company">CERTIFICATIONS:</div>
+                                    <div class="col-md-12 company">CERTIFICATIONS</div>
                                 </div>
                             </div>
                         </div>
@@ -1026,7 +1002,7 @@
                             <div class="row">
                                 <div class="col-xs-2 dates">1991<br>1992</div>
                                 <div class="col-xs-10">
-                                    <div class="col-xs-12 company"><strong>ACTUARIAL CERTIFICATIONS PASSED BY 10% OF POPULATION</strong></div>
+                                    <div class="col-md-12 company">ACTUARIAL CERTIFICATIONS PASSED BY 10% OF POPULATION</div>
                                 </div>
                             </div>
                         </div>
@@ -1070,6 +1046,9 @@
                     <strong>Bachelor of Science (BS)</strong><br>
                     Major: Electrical Engineering<br>
                     Degree completion: 1980
+                </li>
+                <li><strong>Harvard University - 1997</strong><br>
+                    Advanced certification in operations research
                 </li>
             </ul>
         </div>
