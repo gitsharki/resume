@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
           integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/resume.css">
+    <link rel="icon" src="/resume/img/resume-icon.png">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
@@ -124,7 +125,7 @@
                     <li>Built an entire line of business for SumNet LLC. providing high volume email broadcast service for time sensitive market research data</li>
                     <li>Compiled, trained, and lead level 2 operations team for Goldman Sachs portfolio management web application, providing 24/7/365 support and availability.</li>
                     <li>Helped streamline modernization of WRSHealth UI, using cutting-edge development tools and agile processes.</li>
-                    <li>Participated in formation of a highly succesfull startup Dealervenom, first as a lead developer and a systems administrator, then as the CTO.</li>
+                    <li>Participated in formation of a highly successful startup Dealer Venom, first as a lead developer and a systems administrator, then as the CTO.</li>
                 </ul>
             </div>
             <label class="col-md-12" for="experience">Experience
@@ -137,7 +138,7 @@
                             <div class="row">
                                 <div class="col-md-2 dates">2018<br>2021</div>
                                 <div class="col-md-10">
-                                    <div class="col-md-12 company">Dealervenom</div>
+                                    <div class="col-md-12 company">Dealer Venom</div>
                                     <div class="col-md-12 position">CTO</div>
                                 </div>
                             </div>
