@@ -196,7 +196,7 @@
                             <div class="row">
                                 <div class="col-md-2 dates">2014<br>2017</div>
                                 <div class="col-md-10">
-                                    <div class="col-md-12 company"><a href="http://wrshealth.com/" target="_blank">WRSHealth</a>, Goshen, NY</div>
+                                    <div class="col-md-12 company"><a href="http://www.wrshealth.com/" target="_blank">WRSHealth</a>, Goshen, NY</div>
                                     <div class="col-md-12 position">Senior application developer / Systems administrator</div>
                                 </div>
                             </div>
